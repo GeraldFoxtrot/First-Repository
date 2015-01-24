@@ -2,7 +2,7 @@
 #define MATRIX_H
 
 //the indices are not 0-based!!
-class Matrix
+class Matrix //I am adding a comment! :3
 {
    private:
       int rows;
