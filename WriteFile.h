@@ -6,11 +6,11 @@
 #include <fstream>
 using namespace std;
 
-struct WriteFile
+class WriteFile
 {
    ofstream output_file;
    bool closed;
-};
+}write;
 
 WriteFile* createWriteFile(const char* file_name);
 void destroyWriteFile(WriteFile* wf);
