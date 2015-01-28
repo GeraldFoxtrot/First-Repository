@@ -8,6 +8,7 @@ using namespace std;
 
 class WriteFile //made into a class
 {
+   public:
    ofstream output_file;
    bool closed;
 }write;
