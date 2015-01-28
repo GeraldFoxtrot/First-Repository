@@ -6,7 +6,7 @@
 #include <fstream>
 using namespace std;
 
-class WriteFile
+class WriteFile //made into a class
 {
    ofstream output_file;
    bool closed;
