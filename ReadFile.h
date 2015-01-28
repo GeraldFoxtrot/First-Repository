@@ -6,12 +6,13 @@
 #include <fstream>
 using namespace std;
 
-struct ReadFile
+class ReadFile
 {
+	public:
    ifstream input_file;
    bool _eof;
    bool closed;
-};
+}read;
 
 ReadFile* createReadFile(const char* file_name);
 void destroyReadFile(ReadFile* rf);
